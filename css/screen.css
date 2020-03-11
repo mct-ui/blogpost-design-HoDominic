@@ -19,7 +19,7 @@
 html {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-family: "droid-serif", "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #5c6366;
   padding: 48px 24px 24px;
   -webkit-font-smoothing: antialiased;
@@ -79,6 +79,9 @@ h2 {
   font-size: 23px;
   line-height: 32px;
   margin: 0 0 24px;
+}
+* + h2 {
+  margin-top: 48px;
 }
 
 h3 {
